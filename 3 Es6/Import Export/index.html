@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>import export</title>
+</head>
+
+<body>
+
+    <script type="module">
+        // Importing named exports and the default export
+        import PI, { add, subtract } from './math.js';
+
+        console.log(add(10, 5));        // Output: 15
+        console.log(subtract(10, 5));   // Output: 5
+        console.log(`Value of PI: ${PI}`); // Output: Value of PI: 3.14159
+
+    </script>
+</body>
+
+</html>
